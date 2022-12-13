@@ -26,18 +26,15 @@ setRange("Google",110000,90000);
 function checkStock(stockNum,productName)
 {
 if (stockNum >= 4) {
-    console.log(`${productName} is 
-    stocked`);
+    console.log(`${productName} is stocked`);
  } else if (stockNum >= 1) {
-    console.log(`${productName} - running
-     LOW`);
+    console.log(`${productName} - running LOW`);
  } else {
-    console.log(`${productName} - OUT of 
-    stock!`);
+    console.log(`${productName} - OUT of stock!`);
  }
 }
 
-checkStock(2, "Coffee");
+checkStock(4, "Coffee");
 
 // => "Coffee is stocked"
 
