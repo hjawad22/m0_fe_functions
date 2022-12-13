@@ -23,17 +23,21 @@ setRange("Google",110000,90000);
 
 
 // 4: Write a function that satifies the following interaction pattern:
-function checkStock(stockNum,productName){
-if(stockNum >=4){
-    console.log(`${productName} is stocked`);
-} else if(stockNum >= 1){
-    console.log(`${productName} - running LOW`);
-}else{
-    console.log(`${productName} - OUT of stock!`);
-}
+function checkStock(stockNum,productName)
+{
+if (stockNum >= 4) {
+    console.log(`${productName} is 
+    stocked`);
+ } else if (stockNum >= 1) {
+    console.log(`${productName} - running
+     LOW`);
+ } else {
+    console.log(`${productName} - OUT of 
+    stock!`);
+ }
 }
 
-checkStock(4, "Coffee");
+checkStock(2, "Coffee");
 
 // => "Coffee is stocked"
 
